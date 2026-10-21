@@ -1,0 +1,25 @@
+# For AMD64 / x86_64
+ 2081  [ $(uname -m) = x86_64 ] && curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.33.0/kind-linux-amd64
+ 2082  # For ARM64
+ 2083  [ $(uname -m) = aarch64 ] && curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.33.0/kind-linux-arm64
+ 2084  chmod +x ./kind
+ 2085  sudo mv ./kind /usr/local/bin/kind
+ 2086  kind version
+ 2087  kubectl version --client
+ 2088  sudo snap install kubectl
+ 2089  sudo snap install kubectl --classic
+ 2090  kubectl version --client
+ 2091  docker ps
+ 2092  vim config.yml
+ 2093  cat config.yml
+ 2094  kind create cluster --name kuber_clusters --config=config.yml
+ 2095  kind create cluster --name kuber-cluster --config=config.yml
+ 2096  vim config.yml
+ 2097  kind create cluster --name kuber-cluster --config=config.yml
+ 2098  kind nodes
+ 2099  kind
+ 2100  kind get
+ 2101  kind get nodes
+ 2102  kind get clusters
+ 2103  history     
+
