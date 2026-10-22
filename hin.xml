@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documentation>
+    <title>Docker Beginner Guide</title>
+
+    <section id="introduction">
+        <heading>What is Docker?</heading>
+        <content>
+            Docker is a platform used to build,
+            package, and run applications in containers.
+        </content>
+    </section>
+
+    <section id="commands">
+        <heading>Basic Docker Commands</heading>
+        <command>
+            <syntax>docker ps</syntax>
+            <description>Lists running containers.</description>
+        </command>
+    </section>
+</documentation>
