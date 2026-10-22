@@ -5,11 +5,7 @@ nodes:
     image: kindest/node:v1.31.2
   - role: control-plane
     image: kindest/node:v1.31.2
-  - role: control-plane
-    image: kindest/node:v1.31.2
-  
-  - role: worker
-    image: kindest/node:v1.31.2
+
   - role: worker
     image: kindest/node:v1.31.2
   - role: worker
