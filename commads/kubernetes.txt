@@ -1,0 +1,191 @@
+1934  git push origin main
+ 1935  git push origin master
+ 1936  git push -u origin master
+ 1937  git remote -v
+
+ 1939  git remote -v
+ 1940  git push origin main
+ 1941  ls
+ 1942  git status
+ 1943  git add .
+ 1944  git commit -m "pushh "
+ 1945  git push origin main
+ 1946  git pull --rebase origin main
+ 1947  git push origin main
+ 1948  git push origin master
+ 1949  git merge origin/main --allow-unrelated-histories
+ 1950  git branch
+ 1951  git branch -m main
+
+ 1960  kubectl version --client
+ 1961  sudo snap install kubectl
+ 1962  sudo snap install kubectl --classic
+ 1963  kubectl version --client
+ 1964  docker ps
+ 1965  vim config.yml
+ 1966  cat config.yml
+ 1967  kind create cluster --name kuber_clusters --config=config.yml
+ 1968  kind create cluster --name kuber-cluster --config=config.yml
+ 1969  vim config.yml
+ 1970  kind create cluster --name kuber-cluster --config=config.yml
+ 1971  kind nodes
+ 1972  kind
+ 1973  kind get
+ 1974  kind get nodes
+ 1975  kind get clusters
+ 1976  history
+ 1977  cat config.yml
+ 1978  git status
+ 1979  git add config.yml
+ 1980  git commit -m " added config.yml"
+ 1981  git push origin main
+ 1982  git branch
+ 1983  git remote -v
+ 1984  git pull origin main
+ 1985  git push origin main
+ 1986  git pull --rebase origin main
+ 1987  git push origin main
+ 1988  kuberctl cluster-info
+ 1989  kubectl cluster-info
+ 1990  kubectl cluster-info kuber-cluster
+ 1991  kubectl cluster-info  --context kuber-cluster
+ 1992  cat config.yml
+ 1993  vim config.yml
+ 1994  kind create cluster --name=kuber --config=config.yml
+ 1995  vim config.yml
+ 1996  kind create cluster --name=kuber --config=config.yml
+ 1997  kubectl cluster-info --context kind-kuber
+ 1998  kubectl get nodes
+ 1999  ls
+ 2000  cd kubernetes_V1/ 2001  ls
+ 2002  git status
+ 2003  cat config.yml
+ 2004  git add config.yml
+ 2005  git commit -m "updated confi.yml"
+ 2006  git push origin main
+ 2007  git fetch origin main
+ 2008  git push origin main
+ 2009  git pull --rebase origin main
+ 2010  git push origin main
+ 2011  git log
+ 2012  git log
+ 2013  kind cluster
+ 2014* kubectl cluster-info --context
+ 2015  kind
+ 2016  kind get
+ 2017  kind get nodes
+ 2018  kind get nodes clusters
+ 2019  kind get clusters
+ 2020  kubectl cluster-info --context kuber
+ 2021  kubectl cluster-info --context kuber-cluster
+ 2022  kubectl cluster-info --context kind-kuber-cluster
+ 2023  kubectl cluster-info --context kind-kuber
+ 2024  clear
+ 2025  docker ps
+ 2026  kubectl get nodes
+ 2027  kubectl get podes
+ 2028  kubectl get pods
+ 2029  kubectl get pods -A
+ 2030  kind delete cluster --name kuber
+ 2031  kind delete cluster --name kuber-cluster
+ 2032  vim config.yml
+ 2033  kind create cluster --name kuber --config kind-config.yaml
+ 2034  kind create cluster --name kuber --config kind-config.yml
+ 2035  kind create cluster --name kuber --config config.yml
+ 2036  kubectl cluster-info --context kind-kuber
+ 2037  kubectl get namespaces
+ 2038  kubectl get ns
+ 2039  kuberctl create ns nignx
+ 2040  kubectl create ns nignx
+ 2041  kubectl get ns
+ 2042  kubectl run nginx --image=nginx
+ 2043  kubectl delete pod nginx
+ 2044  kubectl run nginxx --image=nginx -n nignx
+ 2045  kubectl get pods
+ 2046  kubectl get pod
+ 2047  kubectl get pods -n nignx
+ 2048  kubectl delete pod nginxx
+ 2049  kubectl delete pod nginxx -n nignx
+ 2050  kubectl delete
+ 2051  kubectl delete ns nignx
+ 2052  kubectl create ns nginx
+ 2053  kubectl run nginx --image=nginx -n nginx
+ 2054  kubectl get pods
+ 2055  kubectl get pods -n nginx
+ 2056  kubectl delete -ns nginx
+ 2057  kubectl delete ns nginx
+ 2058  kubectl get pods ns nginx
+ 2059  kubectl get ns
+ 2060  mkdir nginx
+ 2061  cd nginx/
+ 2062  vim namespace.yml
+ 2063  kubectl apply namespace.yml
+ 2064  kubectl apply -f namespace.yml
+ 2065  cat namespace.yml
+ 2066  vim namespace.yml
+ 2067  kubectl apply -f namespace.yml
+ 2068  vim namespace.yml
+ 2069  kubectl apply -f namespace.yml
+ 2070  kubectl get ns
+ 2071  vim pod.yml
+ 2072  kubectl apply -f pod.yml
+ 2073  cat pod.yml
+ 2074  kubectl exec -it nginx-pod -n nginx -- bash
+ 2075  kubectl describe pod/nginx-pod -n nginx
+ 2076  history 50
+ 2077  kubectl get ns
+ 2078  kubectl get nods
+ 2079  kubectl get nods -a
+ 2080  kubectl get nods -A
+ 2081  kubectl get nod -A
+ 2082  kubectl get ns kube-systen
+ 2083  kubectl get ns kube-system
+ 2084  kubectl get pods ns kube-system
+ 2085  kubectl get pod ns kube-system
+ 2086  ls
+ 2087  vim deployment.yml
+ 2088  ls
+ 2089  cat pod.yml
+ 2090  cat de
+ 2091  cat deployment.yml
+ 2092  cat namespace.yml
+ 2093  kubectl delete -f pod.yml
+ 2094  vim deployment.yml
+ 2095  kubectl apply -f deployment.yml
+ 2096  cat deployment.yml
+ 2097  vim deployment.yml
+ 2098  kubectl apply -f deployment.yml
+ 2099  vim deployment.yml
+ 2100  kubectl apply -f deployment.yml
+ 2101  vim deployment.yml
+ 2102  kubectl apply -f deployment.yml
+ 2103  kubectl get deploye
+ 2104  kubectl get deployment
+ 2105  kubectl get deployment -n nginx
+ 2106  kubectl get pods -n nginx
+ 2107  kubectl scale deployment/nginx-deployment -n nginx --replicas=5
+ 2108  kubectl get pods -n nginx
+ 2109  kubectl scale deployment/nginx-deployment -n nginx --replicas=2
+ 2110  kubectl get pods -n nginx -o wide
+ 2111  cat deployment.yml
+ 2112  kubectl set image deploment/nginx-deployment -n nginx nginx=nginx:1.23.3
+ 2113  kubectl set image deployment/nginx-deployment -n nginx nginx=nginx:1.23.3
+ 2114  kubectl set image deployment/nginx-deployment -n nginx nginx=nginx:1.23.98
+ 2115  kubectl set image deployment/nginx-deployment -n nginx nginx=nginx:1.23.98234
+ 2116  kubectl set image deployment/nginx-deployment -n nginx nginx=:1.23.98234
+ 2117  kubectl get pods -n nginx
+ 2118  kubectl set image deployment/nginx-deployment -n nginx nginx=1.23.98234
+ 2119  kubectl get pods -n nginx
+ 2120  kubectl set image deployment/nginx-deployment -n nginx nginx=nginx:1.23.9
+ 2121  kubectl get pods -n nginx
+ 2122  kubectl set image deployment/nginx-deployment -n nginx nginx=nginx:1.27.3
+ 2123  kubectl get pods -n nginx
+ 2124  ls
+ 2125  git status
+ 2126  git checkout branch dev
+ 2127  git checkout -b dev
+ 2128  ls
+ 2129  git status
+ 2130  git add .
+ 2131  git commit -m "added dev branch"
+ 2132  git push origin dev
